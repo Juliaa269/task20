@@ -1,0 +1,57 @@
+.add-sticker-btn {
+    padding: 10px;
+    background-color: rgb(51, 59, 65);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: 5px solid darkgrey;
+    border: none;
+    color: white;
+}
+
+.sticker-item {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
+
+.edit-sticker {
+    background-color: rgb(51, 59, 65);
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 18px;
+    width: 150px;
+    height: 100px;
+}
+
+textarea {
+    outline: 5px solid darkgrey;
+}
+
+.container {
+    margin: 50px;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.btn {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.delete-btn {
+    position: relative;
+    bottom: 90px;
+    left: 1px;
+    padding: 7px;
+}
+
+body {
+    background-color: rgb(76, 108, 112);
+}

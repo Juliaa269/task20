@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js" async></script>
+        <title>Доска со стикерами на jQuery</title>
+    </head>
+    <body>
+        <div class="add-btn">
+            <input type="submit" class="add-sticker-btn" id="addStickerBtn" value="Добавить стикер">
+        </div>
+        <div class="container" id="containerEl"></div>
+
+        <script type="text/template" id="stickerItemTemplate">
+            <div class="sticker-item" data-id="{{id}}">
+                <textarea class="edit-sticker" placeholder="Введите текст." name="description" id="">{{description}}</textarea>
+                <span class="delete-btn btn">&#10008;</span>
+            </div>
+        </script>
+    </body>
+</html>
